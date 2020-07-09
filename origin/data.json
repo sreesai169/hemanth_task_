@@ -1,0 +1,45 @@
+{
+	"details":{
+		"name":"Hemanth Sri Sai",
+		"email":"sreesai169@gmail.com",
+		"number":"9573188736",
+		"Address":"Rajahmundry"
+	},
+	"careerobjective":{
+		"info":"To become a DevOps Engineer"
+	},
+	"eduactionalqualification":[
+{
+	"institute":"Godavari Institute of Engineering & Technology",
+	"degree":"B.tech",
+	"passoutyear":"2020",
+	"percentage":"77%"
+},
+{
+	"institute":"narayana jr college",
+	"degree":"12th",
+	"passoutyear":"2016",
+	"percentage":"91%"
+},
+{
+	"institute":"surya deep E.M School",
+	"degree":"SSC",
+	"passoutyear":"2014",
+	"percentage":"97%"
+}
+	],
+
+	"techinicalskills":[{
+		"title":"Programming language",
+		"info":["c,java,python,html,css"]
+	},
+	{
+		"title":"Databases",
+		"info":["sql,mysql"]
+	},
+	{
+		"title":"Operating system",
+		"info":["windows,Linux,Ubuntu"]
+	}
+]
+}

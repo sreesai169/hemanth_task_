@@ -1,0 +1,251 @@
+		body{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100vh;
+			font-family: 'Roboto', sans-serif;
+			color: #4a4848;
+			user-select: none;
+
+
+		}
+		.container{
+			display: flex;
+			justify-content: space-around;
+			padding: 10px;
+		}
+		.profile{
+			width: 30%;
+			height: 133.9vh;
+      		box-shadow: 0 3px 10px rgba(0,0,0,.3);
+			border-radius: 10px;
+			margin: 1px;
+		}
+
+		.profile .image{
+			width: 200px;
+			height: 200px;
+			margin-top: 20px;
+			margin-left: 80px;
+			box-shadow: 0 2px 6px rgba(0,0,0,.4);
+			border-radius: 50%;
+		}
+		.profile .image img{
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+
+		}
+
+		.profile .text{
+			font-size: 8px;
+			text-align: center;
+			color: #4a4848;
+			font-weight: 800;
+		}
+		.tech-skills{
+			margin: 20px;
+		}
+		.tech-skills-1{
+			margin: 20px;
+		}
+		.tech-skills .heading{
+			font-size: 8px;
+		}
+		.tech-skills-1 .heading{
+			font-size: 8px;
+		}
+		.data {
+			margin-left: 30px;
+		}
+		.data ul{
+			line-height: 20px;
+			font-size: 15px;
+			font-weight: 800;
+			cursor: pointer;
+		}
+
+		.link:after{
+         content: '';
+         position: absolute;
+         display: block;
+         width: 0;
+         height: 2px;
+         transition: width .3s;
+         background: #00bfff;
+
+      }
+      .link:hover::after{
+         width: 5%;
+         transition: width .3s;
+      }
+      .link:hover{
+      	color: #000;
+      	text-decoration: none;
+      }
+      .content{
+      	width: 68%;
+      	height: 100%;
+      	border-radius: 10px;
+      	box-shadow: 0 3px 10px rgba(0,0,0,.3);
+      }
+      .career{
+      	margin: 20px;
+      }
+      #customers {
+		  border-collapse: collapse;
+		  width: 100%;
+		  border-radius: 10px;
+		}
+
+		#customers td, #customers th {
+		  border: 1px solid #ddd;
+		  padding: 8px;
+		  font-weight: 600;
+		  cursor: pointer;
+		}
+
+		#customers tr:nth-child(even){
+			background-color: #f2f2f2;
+
+		}
+
+		#customers tr:hover
+		{
+			background-color: #ddd;
+		}
+
+		#customers th {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  text-align: left;
+		  background-color: #040d10a1;
+		  color: white;
+		}
+		.projects{
+			margin: 20px;
+		}
+		.section-declare{
+			margin: 20px;
+		}
+		.dec{
+			padding: 0px;
+			margin: 0;
+			position: absolute;
+			bottom: -120px;
+			left:35.5%;
+			letter-spacing: 0.3px;
+			font-weight: 700;
+		}
+		.checkbox{
+			cursor: pointer;
+		}
+		
+		a{
+			text-decoration: none;
+			height: 15px;
+			margin: 30px;
+			margin-left: 10px;
+			padding: 12px 25px;
+			background: #ddd;
+			border-radius: 5px;
+			color: #7A7575;
+			float: right;
+			margin-top: 80px;
+			margin-left: 490px;
+			text-align: center;
+			cursor: not-allowed;
+			transition: 0.5s;
+		}
+		.checkbox:checked + .anchor{
+			background: #0779e4;
+			color: #fff;
+			cursor: pointer;
+		}
+		/*@media only screen and (max-width: 320px){
+			.declare .dec{
+				position: absolute;
+			    left: 8%;
+			    bottom: 32%;
+			}
+		}*/
+		@media only screen and (max-width:375px) and (min-width: 320px){
+		.container{
+ 			display: flex;
+			flex-direction:column;
+			width: 100%;
+			padding: 1%;
+			margin:1%;
+		}
+		.profile{
+			width: 100%;
+		}
+		.tech-skills .heading{
+			font-size: 8px;
+		}
+		.tech-skills-1 .heading{
+			font-size: 8px;
+		}
+		.tech-skills h1{
+			left: 10%;
+			position: absolute;
+
+		}
+		.tech-skills-1 h1{
+			left: 10%;
+			top: 103%;
+			position: absolute;
+
+		}
+		.tech-skills .data ul{
+			font-size: 15px;
+			font-weight: 800;
+			cursor: pointer;
+			position: absolute;
+			top: 63%;
+		}
+		
+		.tech-skills-1 .data ol{
+			line-height: 20px;
+			font-weight: 800;
+			cursor: pointer;
+			position: absolute;
+			top: 105%;
+		}
+		.hr-2{
+			position: absolute;
+			top: 100%;
+			width: 100%;
+		}
+		.content{
+			width: 100%;
+			height: 220%;
+			position: absolute;
+			top: 140%;
+		}
+
+		#customers td, #customers th {
+		  padding: 3px;
+		  margin: 0;
+		}
+		#customers{
+			position: relative;
+			left: -2%;
+		}
+		#customers tr{
+			font-size: 12px;
+		}
+		.projects .project-data ul{
+			font-size: 14px;
+		}
+		.declare .checkbox{
+			position: relative;
+			left: -4%;
+		}
+		.declare .dec{
+			position: absolute;
+		    left: 8%;
+		    bottom: 35.4%;
+		}
+
+	}
